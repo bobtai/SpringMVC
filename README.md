@@ -55,8 +55,8 @@ DAO 僅僅負責資料庫的查詢、新增、刪除和修改等操作，不能�
 
 ### spring.service
 
-Service 為商業邏輯層，再使用 DAO 對資料庫進行操作時，將資料進行額外加工的處理的地方。
+Service 為商業邏輯層，再使用 DAO 對資料庫進行操作的前後，將資料進行額外處理的地方。
 
-### `WEB-INF/views/`
+### WEB-INF/views/
 
-View 只負責將將 Service 層操作完畢的資料，呈現給使用者。
+View 只負責將 Service 層操作完畢的資料，呈現給使用者。
