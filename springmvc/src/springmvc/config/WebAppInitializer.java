@@ -4,7 +4,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 /**
  * 使用 AbstractAnnotationConfigDispatcherServletInitializer 來配置
- * DispatcherServlet，是傳統 web.xml 配置方式的替代方案。
+ * DispatcherServlet，用來取代傳統的 web.xml 配置方式。
  * Servlet 3.0 以上的版本支援此方法。
  */
 public class WebAppInitializer

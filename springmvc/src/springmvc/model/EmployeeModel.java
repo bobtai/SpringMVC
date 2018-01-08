@@ -32,10 +32,4 @@ public class EmployeeModel implements Serializable {
     public String getTitle() {
         return title;
     }
- 
-    @Override
-    public String toString() {
-        return "EmployeeModel [id=" + id + ", name=" + name
-                + ", title=" + title + "]";
-    }
 }

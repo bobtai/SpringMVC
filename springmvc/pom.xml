@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <dependencies>
+    <!-- Spring MVC Support -->
   	<dependency>
     	  <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
@@ -15,6 +16,7 @@
       <artifactId>spring-webmvc</artifactId>
       <version>4.3.12.RELEASE</version>
     </dependency>
+    <!-- JSP Views Support -->
 	<dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>
