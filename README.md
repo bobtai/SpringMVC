@@ -5,7 +5,7 @@
 * Eclipse IDE for Java EE Developers, Oxygen Packages
 * Apache Tomcat 8.0.26
 * jdk1.8.0_151
-* Maven 4.0.0
+* Maven
 
 ## Project Directory Structure
 
@@ -35,25 +35,25 @@
 </dependencies>
 ```
 
-### spring.config
+### springmvc.config
 
 使用 AbstractAnnotationConfigDispatcherServletInitializer 來配置    
 DispatcherServlet，用來取代傳統的 web.xml 配置方式。
 
-### spring.controller
+### springmvc.controller
 
 Controller 負責接收 Client 端的 Request，調用 Service 層的商業邏輯方法，並返回特定的 View 給使用者。
 
-### spring.model
+### springmvc.model
 
 Model 通常是一個 POJO 類別，該類別包含屬性和操作屬性的 getter 和 setter 方法。  
 用來封裝應用程式的數據資料，以進行存入資料庫或顯示視圖等操作。
 
-### spring.dao
+### springmvc.dao
 
 DAO 僅僅負責資料庫的查詢、新增、刪除和修改等操作，不能涵蓋其他的商業邏輯。
 
-### spring.service
+### springmvc.service
 
 Service 為商業邏輯層，再使用 DAO 對資料庫進行操作的前後，將資料進行額外處理的地方。
 
